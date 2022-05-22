@@ -1,0 +1,23 @@
+{
+  "name": "guess-number-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szhosan/guess-number-node.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szhosan/guess-number-node.js/issues"
+  },
+  "homepage": "https://github.com/szhosan/guess-number-node.js#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^9.2.0"
+  }
+}
