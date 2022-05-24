@@ -19,7 +19,7 @@ const logFile = program.opts().file;
 const mind = Math.floor(Math.random() * 10) + 1;
 
 const isValid = (value) => {
-  if (isNaN(value)) {
+  if (Number.isNaN(value)) {
     console.log("Введите число!".red);
     return false;
   }
